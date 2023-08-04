@@ -1,0 +1,227 @@
+/* * {
+  margin: 0px;
+} */
+
+body {
+}
+
+header {
+  position: sticky;
+  top: 1px;
+  z-index: 1;
+}
+
+article {
+  margin: 30px;
+}
+
+
+/* CLASS SECTIONS */
+
+.navbarown {
+  background-color: red;
+  display: flex;
+}
+
+.navbar-brand{
+  margin-left: 40px;
+}
+
+.navbar-navown{
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-item{
+  margin-right: 40px;
+}
+
+.nav-itemown{
+  color: darkred;
+  padding: 10px;
+  margin: 5px;
+}
+
+.nav-linkown {
+  color: darkred;
+}
+
+.flexbox-container {
+  display: flex;
+  justify-content: end;
+}
+
+.flexbox {
+  background-color: forestgreen;
+  display: flex;
+  width: 100px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin: 10px;
+}
+
+.flexbox div {
+  background-color: red;
+}
+
+.d-flex {
+  background-color: green;
+  width: 100px;
+  flex-wrap: wrap;
+}
+
+.gridsystem {
+
+}
+
+.bsg {
+  background-color: red;
+}
+
+.row {
+  background-color: green;
+}
+
+.col {
+  border: 5px solid black;
+}
+.col1 {
+  background-color: yellow;
+  height: 50px;
+}
+.col2 {
+  background-color: purple;
+  height: 50px;
+}
+.col3 {
+  background-color: green;
+  height: 50px;
+}
+
+
+.grid-container {
+  display: grid;
+  background-color: blue;
+  border: 5px solid black;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item1 {
+ grid-column-start: 1;
+ grid-column-end: 4;
+ background-color: green;
+}
+.grid-item2 {
+  background-color: purple;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.grid-item3 {
+  background-color: yellow;
+
+}
+.grid-item4 {
+  background-color: green;
+
+}
+.grid-item5 {
+  background-color: red;
+
+}
+.grid-item6 {
+  background-color: darkorange;
+
+}
+.grid-item7 {
+  background-color: purple;
+
+}
+.grid-item8 {
+  background-color: green;
+
+}
+.grid-item9 {
+  background-color: yellow;
+}
+
+.my-img {
+  padding-left: 30px;
+  margin: 20px;
+  width: 500px;
+  border-radius: 100%;
+/*   transform : rotate(500)
+ */}
+
+ .my-rotimg {
+  padding-left: 30px;
+  padding: 20px;
+  margin: 80px;
+  width: 500px;
+  border-radius: 100%;
+  transform: rotate(65deg);
+ }
+
+ .carousel-inner{
+  background-color: grey;
+ }
+
+ .container {
+  margin: 30px;
+ }
+
+ .swap-container {
+  background-color: yellow;
+ }
+
+ .capitalize-container {
+  background-color: yellowgreen;
+ }
+
+ .numbergenerator-container {
+  background-color: lightblue;
+ }
+
+ .nameFinderContainer {
+  background-color: lightgreen;
+ }
+
+ .find {
+
+ }
+
+ .fizzbuzzContainer {
+  background-color: lightcoral;
+ }
+
+ .lunchcontainer {
+  background-color: lightsteelblue;
+ }
+
+ .fibocontainer {
+  background-color: yellow;
+ }
+
+ .diceContainer {
+  background-color: lightgreen;
+ }
+
+.diceBody{
+  display: flex;
+  justify-content: space-around;
+}
+
+.diceBody img {
+  width: 100px;
+}
+
+.drumContainer {
+  background-color: blueviolet;
+}
+
+.drums {
+  margin: 30px;
+}
+.visi {
+  visibility: hidden;
+}
